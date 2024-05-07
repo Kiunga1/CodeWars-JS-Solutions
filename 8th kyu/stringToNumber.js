@@ -2,6 +2,14 @@
 
 // Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
 
-function stringToNumber(str) {
-    return Number(str);
-}
+// function stringToNumber(str) {
+//     return Number(str);
+// }
+
+
+//Alternative solution
+const stringToNumber = function(str){
+   return parseInt(str);
+    
+    return null;
+  }
